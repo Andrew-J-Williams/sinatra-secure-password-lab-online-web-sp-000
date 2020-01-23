@@ -1,4 +1,4 @@
 class Createusers < ActiveRecord::Migration[5.1]
-  def change
+  def up
   end
 end
