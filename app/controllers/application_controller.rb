@@ -21,6 +21,8 @@ class ApplicationController < Sinatra::Base
 
     if @user
       redirect '/login'
+    end
+      erb
 
   end
 
