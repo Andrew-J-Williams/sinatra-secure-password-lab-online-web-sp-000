@@ -21,10 +21,7 @@ class ApplicationController < Sinatra::Base
 
     if @user.save
       redirect '/login'
-    elsif @user.username == "" || @user.password == ""
-      'Flatiron Bank Error'
     else
-      redirect '/failure'
     end
 
   end
